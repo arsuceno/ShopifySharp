@@ -60,5 +60,11 @@ namespace ShopifySharp
         /// </summary>
         [JsonProperty("user_id")]
         public long? UserId { get; set; }
+
+        /// <summary>
+        /// The unique numeric identifier for the order associated to the refund.
+        /// </summary>
+        [JsonProperty("order_id")]
+        public long? OrderId { get; set; }
     }
 }
